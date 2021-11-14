@@ -1,0 +1,39 @@
+/* 主模块 */
+.main {
+  width: 981px;
+  height: 454px;
+  margin-left: 219px;
+  margin-top: 10px;
+  /* background-color: pink; */
+}
+/* 焦点图 */
+.focus {
+  float: left;
+  width: 721px;
+  height: 454px;
+  background-color: purple;
+}
+/* 快报新闻 */
+.flashnews {
+  float: right;
+  width: 249px;
+  height: 454px;
+  /* background-color: palegoldenrod; */
+  height: 454px;
+}
+.news {
+  width: 100%;
+  height: 166px;
+  /* background-color: palegreen; */
+  border: 1px solid #ccc;
+}
+.lifeservice {
+  width: 100%;
+  height: 207px;
+  /* background-color: yellowgreen; */
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.bargain img {
+  margin-top: 5px;
+}

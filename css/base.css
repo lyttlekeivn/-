@@ -1,0 +1,65 @@
+/* 清除内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+  /* 使用css3的盒子模型 */
+  box-sizing: border-box;
+}
+/* 将斜体还原成正常样式 */
+em,
+i {
+  font-style: normal;
+}
+/* 清除li样式的默认的小点 */
+li {
+  list-style: none;
+}
+img {
+  /* 照顾低版本浏览器会出现图片外套链接会出现边框 */
+  border: 0;
+  /* 清除图片底下的边距 */
+  vertical-align: middle;
+}
+/* button的鼠标样式改为小手 */
+button {
+  cursor: pointer;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: #c81623;
+}
+button,
+input {
+  /* 宋体的UNICODE编码 */
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  /* 清除input的边框 */
+  border: 0;
+  outline: none;
+}
+body {
+  /* CSS3的属性抗锯齿性 */
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  color: #666;
+}
+.hide,
+.none {
+  display: none;
+}
+/* 清除浮动 */
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
