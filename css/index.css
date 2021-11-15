@@ -21,19 +21,178 @@
   /* background-color: palegoldenrod; */
   height: 454px;
 }
+/* 新闻模块 */
 .news {
   width: 100%;
   height: 166px;
   /* background-color: palegreen; */
-  border: 1px solid #ccc;
+  border: 1px solid #e4e4e4;
 }
+/* 新闻头部 */
+.news_hd {
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px dotted #e4e4e4;
+  padding: 0 15px;
+}
+.news_hd h4 {
+  float: left;
+  font-size: 14px;
+}
+.news_hd .more {
+  float: right;
+}
+.news_hd .more::after {
+  content: "\e92d";
+  font-family: "icomoon";
+}
+/* 新闻内容 */
+.news_bd {
+  padding: 5px 0 0 15px;
+}
+.news_bd ul li {
+  height: 24px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 生活服务模块 */
 .lifeservice {
   width: 100%;
   height: 207px;
   /* background-color: yellowgreen; */
-  border: 1px solid #ccc;
+  border: 1px solid #e4e4e4;
   border-top: 0;
 }
+.lifeservice ul {
+  width: 248px;
+}
+.lifeservice ul li {
+  float: left;
+  width: 62px;
+  height: 69px;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+}
+.lifeservice ul li i {
+  margin-top: 12px;
+  display: inline-block;
+  width: 20px;
+  height: 24px;
+  background: url(../images/icons.png) no-repeat -18px -15px;
+}
+/* 特价区 */
 .bargain img {
   margin-top: 5px;
+}
+/* 推荐模块 */
+.recom {
+  margin-top: 10px;
+  height: 163px;
+  background-color: #ebebeb;
+}
+/* 推荐头 */
+.recom .recom_hd {
+  padding-top: 30px;
+  text-align: center;
+  float: left;
+  width: 205px;
+  height: 163px;
+  background: #5c5251;
+}
+/* 推荐体 */
+.recom .recom_bd {
+  float: left;
+}
+.recom_bd ul li {
+  position: relative;
+  float: left;
+  width: 248px;
+  height: 163px;
+  background-color: #ebebeb;
+}
+.recom_bd ul li:nth-child(-n + 3)::after {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  content: "";
+  width: 1px;
+  height: 144px;
+  background-color: #dddddd;
+}
+.recom_bd ul li img {
+  width: 248px;
+  height: 163px;
+}
+/* 家电头 */
+.floor .w .box_hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+/* 家电头标题 */
+.floor .w .box_hd h4 {
+  float: left;
+  height: 30px;
+  font-size: 18px;
+  color: #c81623;
+}
+.floor .w .box_hd .tab_list {
+  height: 30px;
+  line-height: 30px;
+  float: right;
+}
+/* 家电头选项卡 */
+.tab_list ul li {
+  float: left;
+}
+.tab_list ul li a {
+  margin: 0 15px;
+}
+.floor .w {
+  margin-top: 29px;
+}
+/* 选项内容 */
+.tab_content {
+  background-color: skyblue;
+  height: 358px;
+}
+.tab_list_item > div {
+  float: left;
+  height: 358px;
+}
+/* 设置内容5个区域每个的宽度 */
+.col_210 {
+  padding-left: 11px;
+  width: 210px;
+  background-color: #f9f9f9;
+}
+.col_210 ul li {
+  margin-right: 9px;
+  float: left;
+  width: 90px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+}
+.col_330 {
+  width: 330px;
+}
+.col_220 {
+  width: 220px;
+  border-right: 1px solid #ededed;
+}
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #ededed;
+}
+.col_218 {
+  width: 219px;
+}
+/* 第三个和第五个div中间的边框 */
+.bb {
+  display: block;
+  border-bottom: 1px solid #ededed;
 }

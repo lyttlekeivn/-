@@ -1,0 +1,61 @@
+/* 列表页的css */
+/* 秒杀模块 */
+.nav {
+  overflow: hidden;
+}
+.seckill {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 3px;
+  left: 182px;
+  top: 40px;
+  width: 72px;
+  height: 35px;
+  border-left: 1px solid #c81523;
+}
+/* 商品列表 */
+.sk_list {
+  float: left;
+}
+.sk_list ul li {
+  float: left;
+}
+.sk_list ul li a {
+  display: block;
+  padding: 0 27px;
+  line-height: 49px;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* 商品内容 */
+.sk_con {
+  float: left;
+}
+.sk_con ul li {
+  float: left;
+}
+.sk_con ul li a {
+  display: block;
+  padding: 0 22px;
+  line-height: 49px;
+  font-size: 14px;
+}
+.sk_con ul li:last-child {
+  position: relative;
+}
+.sk_con ul li:last-child::after {
+  position: absolute;
+  top: 16px;
+  right: 8px;
+  content: "\e92f";
+  font-family: "icomoon";
+}
+.sk_container_bd ul li {
+  float: left;
+  width: 290px;
+  height: 458px;
+  margin-right: 12px;
+}
+.sk_container_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}

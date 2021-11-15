@@ -1,0 +1,141 @@
+.w {
+  margin: 0 auto;
+  width: 1200px;
+}
+/* 头部区域 */
+.reg_header {
+  height: 85px;
+  border-bottom: 2px solid #c61a2a;
+}
+/* logo制作 */
+.logo {
+  padding-top: 16px;
+  width: 177px;
+  height: 81px;
+}
+/* 注册区域 */
+.registarea {
+  margin-top: 19px;
+  height: 524px;
+  border: 1px solid #ccc;
+}
+/* 注册区域头部 */
+.registarea_hd {
+  padding: 0 10px;
+  height: 42px;
+  line-height: 42px;
+  background-color: #ececec;
+  border-bottom: 1px solid #ccc;
+}
+.registarea_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+}
+.registarea_hd .login {
+  float: right;
+  font-size: 14px;
+}
+.login a {
+  color: #c61a2a;
+}
+/* 注册表单部分 */
+.reg_form {
+  margin: 53px auto 0;
+  width: 565px;
+  height: 371px;
+  /* background-color: pink; */
+}
+.reg_form ul li {
+  margin-bottom: 19px;
+}
+.reg_form ul li label {
+  display: inline-block;
+  width: 77px;
+  text-align: right;
+}
+.inp {
+  margin: 0 8px;
+  width: 238px;
+  height: 35px;
+  border: 1px solid #ccc;
+}
+/* 格式错误 */
+.error {
+  color: #c61a2a;
+}
+.error_icon,
+.success_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  background: url(../images/error.png) no-repeat;
+}
+/* 格式正确 */
+.success {
+  color: green;
+}
+.success_icon {
+  background: url(../images/success.png) no-repeat;
+}
+/* 安全等级 */
+.safe_level {
+  padding-left: 162px;
+  margin-top: -7px;
+}
+.safe_level span {
+  color: #b3b3b3;
+}
+.ruo,
+.zhong,
+.qiang {
+  display: inline-block;
+  text-align: center;
+  width: 34px;
+  height: 13px;
+  line-height: 13px;
+  color: #fff;
+  background-color: #c61a2a;
+}
+.zhong {
+  background-color: #40b83f;
+}
+.qiang {
+  background-color: #f79100;
+}
+/* 同意 */
+.agree {
+  padding-left: 81px;
+}
+.agree input {
+  vertical-align: middle;
+  margin-right: 7px;
+  margin-top: -3px;
+}
+.agree a {
+  color: #1ba1e6;
+}
+/* 完成注册 */
+.regit {
+  padding-top: 20px;
+  padding-left: 88px;
+}
+.regit input {
+  background-color: #c81623;
+  width: 202px;
+  height: 33px;
+  font-size: 14px;
+  color: #fff;
+}
+/* 版权模块 */
+.mod_copyright {
+  text-align: center;
+}
+.mod_copyright .links {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+.mod_copyright .links a {
+  margin: 0 10px;
+}
